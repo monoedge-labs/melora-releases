@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Melora</title>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 30 Jul 2026 16:33:14 +0800</pubDate>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v0.2.0/Melora_v0.2.0_arm64.zip" length="6250308" type="application/octet-stream" sparkle:edSignature="w2XIvdzNEyhgBHJgMCzKsL7dibph576miHNsilEHIYteH6iTtphiSH/Q6h24/XLv6fRbyDqkBOxESbl6JFa1DA=="/>
+        </item>
+    </channel>
+</rss>
