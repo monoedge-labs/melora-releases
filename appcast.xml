@@ -3,13 +3,13 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>0.4.32</title>
-            <pubDate>Thu, 10 Sep 2026 08:24:09 +0800</pubDate>
-            <sparkle:version>0.4.32</sparkle:version>
-            <sparkle:shortVersionString>0.4.32</sparkle:shortVersionString>
+            <title>0.4.33</title>
+            <pubDate>Fri, 11 Sep 2026 01:44:34 +0800</pubDate>
+            <sparkle:version>0.4.33</sparkle:version>
+            <sparkle:shortVersionString>0.4.33</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v0.4.32/Melora_v0.4.32_arm64.zip" length="8165000" type="application/octet-stream" sparkle:edSignature="T+2829fSQoZbWS5SWs/XkUvbXmRlh+PHWiOjPpuGjuThdjsS1fPqHVUwGgRpw8+qYnII6plgi+FjWkr8DhJ/CQ=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v0.4.33/Melora_v0.4.33_arm64.zip" length="8174874" type="application/octet-stream" sparkle:edSignature="vUmVNPxN7KOpA1b+DoAGfwgVXoqDuiYlvpf3bMVC4Cw8ImmwFJIfhclZPt7Jk9YyDMsBjq1UIP77DHl+y0ycCg=="/>
         </item>
     </channel>
 </rss>
