@@ -3,13 +3,25 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.30</title>
-            <pubDate>Thu, 12 Nov 2026 00:37:50 +0800</pubDate>
-            <sparkle:version>1.0.30</sparkle:version>
-            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+            <title>1.0.31</title>
+            <pubDate>Mon, 16 Nov 2026 23:39:09 +0800</pubDate>
+            <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.0.31</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.30/Melora_v1.0.30_arm64.zip" length="11224652" type="application/octet-stream" sparkle:edSignature="1QzOWHRky5v/ONCN6oWONVSpAZeotYcdkCChmoEHKGt4AfNnzW31q0nYf6ayYrwtFlyTZKrWJd41cPPjNToPDg=="/>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>See what changed in each version from Settings › Update: the new &quot;Release Notes&quot; row opens the public changelog in your browser.</li>
+<li>Read the release notes for an update directly in the update window before installing it.</li>
+</ul>
+<h3>Note</h3>
+<ul>
+<li>Requires macOS 14.0 or later.</li>
+<li>Updates from v1.0.30 and earlier still show no notes for the immediate next upgrade; release notes appear again from the version after that.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.31/Melora_v1.0.31_arm64.zip" length="11219968" type="application/octet-stream" sparkle:edSignature="xRf7UC8prpmzkJSS6GTbvICnyErMeZsRLBVw86w6Fqfrxu2IBDCzAlUXOUVJ5bsP+LSWtNM16TwALZGiVlePCQ=="/>
         </item>
     </channel>
 </rss>
