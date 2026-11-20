@@ -3,34 +3,39 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.32</title>
-            <pubDate>Thu, 19 Nov 2026 01:38:59 +0800</pubDate>
+            <title>1.0.33</title>
+            <pubDate>Sat, 21 Nov 2026 03:59:06 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.32</sparkle:version>
-            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+            <sparkle:version>1.0.33</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<h3>New</h3>
 <ul>
-<li>Temporarily hide the Dynamic Island to reach the menu bar icons it covers: hover over its wings for a moment or press a global shortcut, and it comes back after the pointer leaves the menu bar. Turn on either trigger under Settings › Display › Temporary Hide.</li>
-<li>Switch the Claude Code account used on this Mac from Melora: choose &quot;Set Active&quot; on a saved Claude subscription account in the menu panel or in Settings › Models &amp; Subscriptions.</li>
-<li>Copy a ready-made prompt that asks your agent to add a custom provider, from Settings › Models &amp; Subscriptions.</li>
+<li>Look back at your usage history: open Daily AI Usage › Details and switch to History for daily token trends, quota window timelines, the full model breakdown, and week-by-week comparisons within a month.</li>
+<li>See your OpenAI organization&#x27;s token usage and billed costs for the last 7 days in the menu panel: add an Admin Key under Settings › Models &amp; Subscriptions, then choose the organization total or a single API key.</li>
+<li>Review attention items from the Inbox in the menu panel, now available by default.</li>
+<li>Antigravity CLI sessions now show a title and jump to their terminal or project folder.</li>
 </ul>
 <h3>Improved</h3>
 <ul>
-<li>Dynamic Island avatars and the Low Power Mode transition now follow Reduce Motion consistently.</li>
+<li>Antigravity CLI usage is now split and priced by the model each step actually used.</li>
+<li>After you sign in to the Antigravity CLI again, its quota comes back within seconds instead of up to 5 minutes.</li>
+<li>Codex reset announcements and this Mac&#x27;s identity now sync to your paired iPhone, so the next Melora Companion update can show them and switch between your Macs.</li>
 </ul>
 <h3>Fixed</h3>
 <ul>
-<li>Fix sluggish response and sustained high CPU usage when many unread attention items were being synced to a paired iPhone.</li>
-<li>Fix Codex reset announcements being checked late after a refresh was cancelled.</li>
+<li>Fix quota colors, rows, and captions treating a precise-only reading as missing data in the menu bar and menu panel.</li>
+<li>Fix the Inbox and menu badge not updating after items were read or archived on iPhone.</li>
+<li>Fix Settings showing Antigravity as not running when only the Antigravity CLI is in use, and label readings carried over from an earlier refresh as last readings.</li>
+<li>Fix the fallback steps for finding the melora command in the copyable custom-provider prompt, and low-contrast caption text in Dark Mode.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.32/Melora_v1.0.32_arm64.zip" length="11399594" type="application/octet-stream" sparkle:edSignature="i7EQHfxzXbIBha8GL1N8Jhw/XlcBdJrbgkrtFxrLh1GO/6C/2SLGKL3dqc00yngdwTw3BR0LRQmEs3Woblv9Aw=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.33/Melora_v1.0.33_arm64.zip" length="12228791" type="application/octet-stream" sparkle:edSignature="jIYVFfqcCCgKd7hlxdOTZuxL+MCeO1SSCApxLZfa/6xFqyhM0JywCtp3qbGrNbh2mhBkDh4yOaYC0g/eUgAaCQ=="/>
         </item>
     </channel>
 </rss>
