@@ -3,30 +3,35 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.34</title>
-            <pubDate>Sun, 22 Nov 2026 05:49:31 +0800</pubDate>
+            <title>1.0.35</title>
+            <pubDate>Mon, 23 Nov 2026 17:23:15 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.34</sparkle:version>
-            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+            <sparkle:version>1.0.35</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<h3>New</h3>
 <ul>
-<li>Respond with Allow Once or Deny to single permission requests from your paired iPhone while your Mac is locked, asleep, or idle for 5 minutes, over a local direct connection or encrypted relay; turn on Approve on iPhone when away under Settings › iPhone Link (off by default, with unhandled or timed-out requests falling back to your Mac terminal).</li>
+<li>Answer Claude Code&#x27;s <code>AskUserQuestion</code> prompts from your iPhone while away—select single or multiple options, enter a custom answer, or decline, verified with Face ID.</li>
+<li>Approve requests locally on the same network when connected via iCloud without scanning a QR code, with each Mac using its own credentials when multiple Macs share an iCloud account.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Show the project, session title, request, and reply summary for Inbox items consistently across the Mac Inbox window and iPhone.</li>
+<li>Automatically turn on iPhone Link when enabling Remote Connection or Approve on iPhone when away if iPhone Link has never been configured, and warn when iPhone Link is turned off.</li>
+<li>Show App Store region availability for the iPhone app under Settings › iPhone Link.</li>
 </ul>
 <h3>Fixed</h3>
 <ul>
-<li>Fix the Dynamic Island attention glow and Increase Contrast border drawing a static rectangular top edge beside the notch, so the outline hugs the outer notch contour again.</li>
-<li>Fix new Dynamic Island activity jumping or shifting the left wing when switching or expanding; activity rows now unfold downward from the top and stop animating immediately when Reduce Motion or Low Power Mode turns on.</li>
-<li>Fix English wording in Settings, Usage, and Membership restore messages, including showing vendor quota percentages in natural English order and clarifying expired sign-in and account-mismatch errors.</li>
+<li>Fix Needs you items and pending approval cards on iPhone not refreshing automatically after you handle them in your Mac terminal.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
-<li>Phone Approval requires MeloraPhone 1.1.0 on iPhone paired by QR code.</li>
+<li>Answering Claude Code questions from iPhone requires Melora Companion 1.1.1 for iPhone (Face ID), which is coming to the App Store shortly.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.34/Melora_v1.0.34_arm64.zip" length="12345100" type="application/octet-stream" sparkle:edSignature="+1A18echdeZhdSs8O5Yz6598ScHRp3vO/fxxxg4lU5FSVVYetqq7ABSaZQeyXEJ6GxEWFFPgQDB0ViwoN0JaBQ=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.35/Melora_v1.0.35_arm64.zip" length="12462292" type="application/octet-stream" sparkle:edSignature="NeA16Gh80ct07FkJU5kQt2QY25boeBA/vqiKkO/RHfh2mw5DZcBfZDP8Okmufx+ayRHytlH1ypm9drrmyxmJAA=="/>
         </item>
     </channel>
 </rss>
