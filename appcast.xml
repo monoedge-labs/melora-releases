@@ -3,35 +3,28 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.35</title>
-            <pubDate>Mon, 23 Nov 2026 17:23:15 +0800</pubDate>
+            <title>1.0.36</title>
+            <pubDate>Tue, 24 Nov 2026 01:49:46 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.35</sparkle:version>
-            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:version>1.0.36</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>New</h3>
+            <description><![CDATA[<h3>Improved</h3>
 <ul>
-<li>Answer Claude Code&#x27;s <code>AskUserQuestion</code> prompts from your iPhone while away—select single or multiple options, enter a custom answer, or decline, verified with Face ID.</li>
-<li>Approve requests locally on the same network when connected via iCloud without scanning a QR code, with each Mac using its own credentials when multiple Macs share an iCloud account.</li>
-</ul>
-<h3>Improved</h3>
-<ul>
-<li>Show the project, session title, request, and reply summary for Inbox items consistently across the Mac Inbox window and iPhone.</li>
-<li>Automatically turn on iPhone Link when enabling Remote Connection or Approve on iPhone when away if iPhone Link has never been configured, and warn when iPhone Link is turned off.</li>
-<li>Show App Store region availability for the iPhone app under Settings › iPhone Link.</li>
+<li>Display total tokens, requests, and cost in a single row on the OpenAI API usage card, along with the UTC refresh time and an input/output token ratio bar.</li>
 </ul>
 <h3>Fixed</h3>
 <ul>
-<li>Fix Needs you items and pending approval cards on iPhone not refreshing automatically after you handle them in your Mac terminal.</li>
+<li>Fix Claude usage failing to find the <code>claude</code> CLI when launched from the menu bar or getting stuck prompting to open Claude Code when saved credentials can no longer be refreshed.</li>
+<li>Fall back to valid saved credentials when Keychain credentials for Claude Code have expired, show clear guidance when running in API key or <code>ANTHROPIC_AUTH_TOKEN</code> mode or when <code>claude auth login</code> is needed, and reload immediately on manual refresh in Settings.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
-<li>Answering Claude Code questions from iPhone requires Melora Companion 1.1.1 for iPhone (Face ID), which is coming to the App Store shortly.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.35/Melora_v1.0.35_arm64.zip" length="12462292" type="application/octet-stream" sparkle:edSignature="NeA16Gh80ct07FkJU5kQt2QY25boeBA/vqiKkO/RHfh2mw5DZcBfZDP8Okmufx+ayRHytlH1ypm9drrmyxmJAA=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.36/Melora_v1.0.36_arm64.zip" length="12509900" type="application/octet-stream" sparkle:edSignature="DkE2pJXM6hQq+FuKhXJWRVewHoKn2+om1JAMJHsBpibIhWcZjLi/LvQtRErogYgS7AFXz8z3z4ZvWyDDW0KHAw=="/>
         </item>
     </channel>
 </rss>
