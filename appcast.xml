@@ -3,28 +3,29 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.36</title>
-            <pubDate>Tue, 24 Nov 2026 01:49:46 +0800</pubDate>
+            <title>1.0.37</title>
+            <pubDate>Wed, 25 Nov 2026 13:47:04 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.36</sparkle:version>
-            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <sparkle:version>1.0.37</sparkle:version>
+            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<h3>Improved</h3>
 <ul>
-<li>Display total tokens, requests, and cost in a single row on the OpenAI API usage card, along with the UTC refresh time and an input/output token ratio bar.</li>
+<li>Animate Dynamic Island expand and collapse transitions so shared icons and labels move directly into place, the shell springs smoothly, and header counts scale smoothly between states.</li>
+<li>Choose a single display mode in Settings—Dynamic Island, Side Rail, Menu Bar, or Hide All—with the Dock icon available to reopen Settings when all surfaces are hidden.</li>
+<li>Automatically refresh Claude usage when opening the menu panel with rate-limit protection, and merge official usage with status-line readings per billing window so idle sessions do not overwrite higher official readings.</li>
 </ul>
 <h3>Fixed</h3>
 <ul>
-<li>Fix Claude usage failing to find the <code>claude</code> CLI when launched from the menu bar or getting stuck prompting to open Claude Code when saved credentials can no longer be refreshed.</li>
-<li>Fall back to valid saved credentials when Keychain credentials for Claude Code have expired, show clear guidance when running in API key or <code>ANTHROPIC_AUTH_TOKEN</code> mode or when <code>claude auth login</code> is needed, and reload immediately on manual refresh in Settings.</li>
+<li>Fix square-corner clipping during Dynamic Island expansion and keep transitions smooth when expanding or collapsing again mid-animation.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.36/Melora_v1.0.36_arm64.zip" length="12509900" type="application/octet-stream" sparkle:edSignature="DkE2pJXM6hQq+FuKhXJWRVewHoKn2+om1JAMJHsBpibIhWcZjLi/LvQtRErogYgS7AFXz8z3z4ZvWyDDW0KHAw=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.37/Melora_v1.0.37_arm64.zip" length="12642509" type="application/octet-stream" sparkle:edSignature="KvNktU1Wf+7BWVDo1XDntIfuoS3OZ/u4i8/HKiNXW71I4Dzhz10uFrE8RoICMrgTXocAI0WenV3RgFjn4RhlBA=="/>
         </item>
     </channel>
 </rss>
