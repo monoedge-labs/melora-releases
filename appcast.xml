@@ -3,29 +3,33 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.37</title>
-            <pubDate>Wed, 25 Nov 2026 13:47:04 +0800</pubDate>
+            <title>1.0.38</title>
+            <pubDate>Fri, 27 Nov 2026 01:34:11 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.37</sparkle:version>
-            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
+            <sparkle:version>1.0.38</sparkle:version>
+            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>Improved</h3>
+            <description><![CDATA[<h3>New</h3>
 <ul>
-<li>Animate Dynamic Island expand and collapse transitions so shared icons and labels move directly into place, the shell springs smoothly, and header counts scale smoothly between states.</li>
-<li>Choose a single display mode in Settings—Dynamic Island, Side Rail, Menu Bar, or Hide All—with the Dock icon available to reopen Settings when all surfaces are hidden.</li>
-<li>Automatically refresh Claude usage when opening the menu panel with rate-limit protection, and merge official usage with status-line readings per billing window so idle sessions do not overwrite higher official readings.</li>
+<li>Choose Custom under Display in Settings to show any combination of Dynamic Island, Side Rail, and Menu Bar at the same time.</li>
+<li>Right-click the Dynamic Island to open Display settings directly.</li>
+<li>Compare quota cycles in Usage History, with each weekly Claude or Codex cycle showing its percentage increase next to the tokens used.</li>
+<li>Show Codex sessions as waiting when Codex asks for your input, and send a read-only reminder to your paired iPhone.</li>
+<li>Copy diagnostics from a failed remote connection status in iPhone pairing settings to share when reporting connection problems.</li>
 </ul>
-<h3>Fixed</h3>
+<h3>Improved</h3>
 <ul>
-<li>Fix square-corner clipping during Dynamic Island expansion and keep transitions smooth when expanding or collapsing again mid-animation.</li>
+<li>Open the attention inbox from the expanded Side Rail, matching the menu bar panel.</li>
+<li>Show OpenAI usage card refresh times and date ranges in your local time zone, with UTC billing days available on hover.</li>
+<li>Show OpenAI costs with an explicit currency, such as US$0.48, and present empty or failed usage and cost states in the same compact layout.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.37/Melora_v1.0.37_arm64.zip" length="12642509" type="application/octet-stream" sparkle:edSignature="KvNktU1Wf+7BWVDo1XDntIfuoS3OZ/u4i8/HKiNXW71I4Dzhz10uFrE8RoICMrgTXocAI0WenV3RgFjn4RhlBA=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.38/Melora_v1.0.38_arm64.zip" length="12804884" type="application/octet-stream" sparkle:edSignature="HTIhILedZiC6UIwgMr/Ks1ynQwmW96tN2zqz22SaLEjEEKCZhQRck9cA2gIa25MBYzMGyiqShoD1VNGn9sPlCw=="/>
         </item>
     </channel>
 </rss>
