@@ -3,33 +3,30 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.39</title>
-            <pubDate>Fri, 27 Nov 2026 11:23:17 +0800</pubDate>
+            <title>1.0.40</title>
+            <pubDate>Fri, 27 Nov 2026 15:42:14 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.39</sparkle:version>
-            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
+            <sparkle:version>1.0.40</sparkle:version>
+            <sparkle:shortVersionString>1.0.40</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<h3>New</h3>
 <ul>
-<li>Open the official OpenAI usage page from a link at the bottom of the OpenAI usage card to check usage and manage billing.</li>
+<li>Archive stale attention inbox rows in one step with a cleanup card at the top of the list; the menu bar badge now always matches the needs-attention count in the window.</li>
+<li>Approval push notifications sent to your paired iPhone are now sealed on your Mac, so command details stay encrypted until they reach your phone.</li>
 </ul>
 <h3>Improved</h3>
 <ul>
-<li>Redesign attention inbox rows to match the menu panel, with View Details as the primary action and Archive always available.</li>
-<li>Show a single notice at the top of the inbox when history is truncated, with the sync window in days and the number of items, instead of inline hints.</li>
-<li>Mark rows for ended or unlocated sessions as unavailable and exclude them from the count of items that need attention.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>Improve the contrast of pending-approval text in light appearance so it stays readable.</li>
+<li>Reach attention inbox rows with the keyboard and open them with Return.</li>
+<li>Rewrite English interface copy across the app for clearer, more consistent wording.</li>
+<li>Replace the promo video on the product site with footage of the real app.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.39/Melora_v1.0.39_arm64.zip" length="12866340" type="application/octet-stream" sparkle:edSignature="Xog236Wn+18nb0pJM2jCvQIBo5W9W0ED24NpsdXcGZWyr9RPp+Iw6ww6ap8gwvjhM8U9CouBq7eXCzYNOCG6Cg=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.40/Melora_v1.0.40_arm64.zip" length="12889056" type="application/octet-stream" sparkle:edSignature="JMq0pb1eqgRNgyeCeqxoSQ4l9B10HSqCj0m9cRSgTG8uFaC9IOAGbzsZnQ1q0khIzUnhryOZK5W4HIVZ4HVyDg=="/>
         </item>
     </channel>
 </rss>
