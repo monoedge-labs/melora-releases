@@ -3,33 +3,33 @@
     <channel>
         <title>Melora</title>
         <item>
-            <title>1.0.38</title>
-            <pubDate>Fri, 27 Nov 2026 01:34:11 +0800</pubDate>
+            <title>1.0.39</title>
+            <pubDate>Fri, 27 Nov 2026 11:23:17 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://melora.zausau.com/changelog/</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.38</sparkle:version>
-            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
+            <sparkle:version>1.0.39</sparkle:version>
+            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<h3>New</h3>
 <ul>
-<li>Choose Custom under Display in Settings to show any combination of Dynamic Island, Side Rail, and Menu Bar at the same time.</li>
-<li>Right-click the Dynamic Island to open Display settings directly.</li>
-<li>Compare quota cycles in Usage History, with each weekly Claude or Codex cycle showing its percentage increase next to the tokens used.</li>
-<li>Show Codex sessions as waiting when Codex asks for your input, and send a read-only reminder to your paired iPhone.</li>
-<li>Copy diagnostics from a failed remote connection status in iPhone pairing settings to share when reporting connection problems.</li>
+<li>Open the official OpenAI usage page from a link at the bottom of the OpenAI usage card to check usage and manage billing.</li>
 </ul>
 <h3>Improved</h3>
 <ul>
-<li>Open the attention inbox from the expanded Side Rail, matching the menu bar panel.</li>
-<li>Show OpenAI usage card refresh times and date ranges in your local time zone, with UTC billing days available on hover.</li>
-<li>Show OpenAI costs with an explicit currency, such as US$0.48, and present empty or failed usage and cost states in the same compact layout.</li>
+<li>Redesign attention inbox rows to match the menu panel, with View Details as the primary action and Archive always available.</li>
+<li>Show a single notice at the top of the inbox when history is truncated, with the sync window in days and the number of items, instead of inline hints.</li>
+<li>Mark rows for ended or unlocated sessions as unavailable and exclude them from the count of items that need attention.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Improve the contrast of pending-approval text in light appearance so it stays readable.</li>
 </ul>
 <h3>Note</h3>
 <ul>
 <li>Requires macOS 14.0 or later.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.38/Melora_v1.0.38_arm64.zip" length="12804884" type="application/octet-stream" sparkle:edSignature="HTIhILedZiC6UIwgMr/Ks1ynQwmW96tN2zqz22SaLEjEEKCZhQRck9cA2gIa25MBYzMGyiqShoD1VNGn9sPlCw=="/>
+            <enclosure url="https://github.com/monoedge-labs/melora-releases/releases/download/v1.0.39/Melora_v1.0.39_arm64.zip" length="12866340" type="application/octet-stream" sparkle:edSignature="Xog236Wn+18nb0pJM2jCvQIBo5W9W0ED24NpsdXcGZWyr9RPp+Iw6ww6ap8gwvjhM8U9CouBq7eXCzYNOCG6Cg=="/>
         </item>
     </channel>
 </rss>
